@@ -1,6 +1,6 @@
 import numpy as np
 
-from RMC.interfaces.RTStruct import ROIRegion
+from ..interfaces.RTStruct import ROIRegion
 
 
 def get_rectangle_roi_dict(image_Volume, mask_Volume, *, margin_rmin=0, margin_rmax=0, margin_cmin=0, margin_cmax=0, margin=0) -> dict[int, list[np.ndarray]]:
